@@ -11,6 +11,8 @@ npm start
 
 ## Unit tests
 
+Testing is automatic through Github Actions
+
 ```bash
 npm test
 ```
