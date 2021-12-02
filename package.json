@@ -6,6 +6,7 @@
   "scripts": {
     "start": "ts-node --emit src/index.ts",
     "test": "jest --watch",
+    "test:ci": "jest",
     "download:input": "ts-node --emit getTodaysInput.ts",
     "lint": "eslint --ext .js,.ts,.tsx --ignore-path .gitignore ."
   },
