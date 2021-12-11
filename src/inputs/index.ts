@@ -8,5 +8,18 @@ import day7 from './day7.json';
 import day8 from './day8.json';
 import day9 from './day9.json';
 import day10 from './day10.json';
+import day11 from './day11.json';
 
-export default [day1, day2, day3, day4, day5, day6, day7, day8, day9, day10];
+export default [
+  day1,
+  day2,
+  day3,
+  day4,
+  day5,
+  day6,
+  day7,
+  day8,
+  day9,
+  day10,
+  day11
+];
