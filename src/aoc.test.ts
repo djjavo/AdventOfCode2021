@@ -9,6 +9,7 @@ import day8 from './day8';
 import day9 from './day9';
 import day10 from './day10';
 import day11 from './day11';
+import day12 from './day12';
 import input from './inputs';
 
 describe('Advent of Code 2021 Solutions', () => {
@@ -23,7 +24,8 @@ describe('Advent of Code 2021 Solutions', () => {
     [8, day8, 7, 519, 1027483],
     [9, day9, 8, 480, 1045660],
     [10, day10, 9, 387363, 4330777059],
-    [11, day11, 10, 1729, 237]
+    [11, day11, 10, 1729, 237],
+    [12, day12, 11, 4411, 136767]
   ])('should solve day %i', (_, day, index, part1, part2) => {
     expect(day.part1(input[index])).toBe(part1);
     expect(day.part2(input[index])).toBe(part2);
