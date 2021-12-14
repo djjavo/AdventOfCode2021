@@ -10,6 +10,7 @@ import day9 from './day9.json';
 import day10 from './day10.json';
 import day11 from './day11.json';
 import day12 from './day12.json';
+import day13 from './day13.json';
 
 export default [
   day1,
@@ -23,5 +24,6 @@ export default [
   day9,
   day10,
   day11,
-  day12
+  day12,
+  day13
 ];
